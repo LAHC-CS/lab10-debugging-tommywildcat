@@ -8,7 +8,7 @@ class Exercise_1 {
         // Check if given a single argument
         if(args.length == 1) {
             System.out.println("./Exercise_1 value");
-            return;
+            return; 
         }
 
         int n = args[0];
