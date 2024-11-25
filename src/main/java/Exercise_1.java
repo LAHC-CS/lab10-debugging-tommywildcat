@@ -1,16 +1,16 @@
 class Exercise_1 {
 
     /*
-     * We consider a new type of error: DESIGNB error.  Since arr[i] == i for
-     * all value of i, we can write
+     * We consider a new type of error: DESIGN error.  Since arr[i] == i for
+     * all values of i, we can write
      * 
      * public static void findDivisableBy(int n) {
      *
-     *     // for every element of the array
+     *     // for every value of i
      *     boolean first = true;
      *     for(int i = 0; i < NUM_ELEMENTS; i++) {
      *
-     *         // check if element is divisible by n
+     *         // check if value is divisible by n
      *         if((i % n) == 0) {
      *             //print if divisibile
      *             System.out.print((first ? "" : ", ") + i);
